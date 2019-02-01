@@ -1,5 +1,5 @@
 :root {
-    --default-color: #7171f5;
+    --default-color: black;
 }
 
 body {
@@ -13,6 +13,10 @@ p {
     text-align: left;
 }
 
+h1{
+    color:#fff;
+}
+
 img{
     width:200px;
     margin-left: auto;
@@ -21,10 +25,11 @@ img{
 }
 
 #main-section {
-    border: 2px solid black;
+    border: 2px solid #fff;
     margin: 10px;
     padding:10px;
     min-width:220px;
+    background-color:#7171f5;
 }
 
 li {
@@ -33,4 +38,8 @@ li {
 
 a {
     text-decoration: none;
+}
+
+a:hover{
+    color:white;
 }
